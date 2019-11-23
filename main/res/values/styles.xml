@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTheme2</item>
+        <item name="colorPrimaryDark">@color/colorTheme1</item>
+        <item name="colorAccent">@color/colorTheme1</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.AboutPopUp">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="favbutton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/favorites_shade</item>
+    </style>
+
+    <style name="setButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">@color/colorTheme1</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorTheme3</item>
+        <item name="android:layout_marginLeft">3dp</item>
+    </style>
+
+</resources>

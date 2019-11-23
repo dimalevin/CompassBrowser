@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Compass Browser</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fav_page">Favorites</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="about">This Browser was created as a part of my studies in the Technion for semestrial exam in 2019 on Android class,
+    that was tuoted by Muhamad Eawedat.\nIt took me about 3 evenings to build it and another 3 to "polish" it a bit.
+        \n\n\tDima (2019).</string>
+
+    <string name="made_by">Made by DimaL 2019</string>
+
+    <string name="help">\t\tHelp Contents:\n1.Using the
+        \'Browser\'\n2.Using the \'Favorites\'\n3.Using the \'Settings\'\n\n\t\t-Browser-\nIn
+        order to use the browser, please open the side menu and press the browser button.
+        Next the browser window will appear, allowing you to enter an url to the desired site.
+        \nAfter entering the site address, please press Go button to load the desired page.\n\n\t\t-
+        Favorites-\nIn order to use the favorites, please open the side menu and press the favorites
+        button. Next the favorites window will appear, allowing you to manage your favorite links.\n\n
+        \t\t-Settings-\nIn order to use the settings, please open the side menu and press the settings button.
+        Next the settings window will appear, allowing you to manage your settings.\n\n-END OF FILE-</string>
+
+    <string name="share_info">Hello! I recommend you to try a cool browser named \'Compass Browser\'.
+        You can download it here:\nhttps://drive.google.com/file/d/1qrJexTa0Hmm7VqYzgtz6Y-cz7l1lV6v-/view?usp=sharing\nCheers!</string>
+
+    <string name="current_version">0.5b</string>
+
+    <string name="error_img">file:///android_asset/no_internet.png</string>
+
+</resources>
+

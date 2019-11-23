@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTheme2"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/app_name"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".65"
+        android:background="@drawable/compass_logo"
+        android:paddingLeft="10dp"
+        android:paddingRight="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".05"
+        android:textAlignment="center"
+        android:paddingLeft="15dp"
+        android:text="All Rights Reserved (c)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:text="@string/made_by"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="bottom"/>
+
+</LinearLayout>
